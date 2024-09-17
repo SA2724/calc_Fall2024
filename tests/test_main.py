@@ -1,7 +1,5 @@
 ''' My Calculator Tests'''
-from app.main import addition 
-
+from app.main import addition
 def test_addition():
     '''Addition Function'''
     assert addition(1,1) == 2
-
