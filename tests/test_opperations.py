@@ -1,6 +1,6 @@
 ''' My Calculator Tests'''
 import pytest
-from app.main import addition, division, multiplication, subtraction
+from app.Opperations import addition, division, multiplication, subtraction
 
 def test_addition():
     '''Addition Function'''
