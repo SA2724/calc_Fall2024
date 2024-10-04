@@ -21,3 +21,4 @@ def repl():
     child.expect('Welcome to the Calculator REPL.*')
     yield child
     child.terminate()
+    
