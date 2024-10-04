@@ -1,6 +1,6 @@
 # Importing necessary functions from the app.operations module
 # These functions (addition, subtraction, multiplication, division) perform the core arithmetic operations.
-from app.operations import addition, subtraction, multiplication, division
+from app.Opperations import addition, subtraction, multiplication, division
 
 # Defining the Calculator class which acts as an interface to perform arithmetic operations.
 class Calculator:

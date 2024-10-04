@@ -3,7 +3,7 @@ import sys
 import pexpect
 import pytest
 
-from app.calculator import Calculator
+from app.Calculator import Calculator
 
 
 @pytest.fixture

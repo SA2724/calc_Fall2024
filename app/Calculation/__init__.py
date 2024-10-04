@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from app.operations import addition, subtraction, multiplication, division, Number
+from app.Opperations import addition, subtraction, multiplication, division, Number
 
 class Calculation(ABC):
     """
