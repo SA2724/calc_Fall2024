@@ -1,7 +1,7 @@
 from app.Calculation import Addition, Subtraction, Multiplication, Division
 from app.Calculator import Calculator
 from typing import Dict, Type
-from app.history_manager import HistoryManager 
+from app.history_manager import HistoryManager  
 
 # Dictionary mapping operation strings to the corresponding calculation class.
 operations_map: Dict[str, Type] = {
@@ -124,3 +124,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+print(HistoryManager)
